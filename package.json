@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "hooks",
+  "name": "luoyehooks",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
