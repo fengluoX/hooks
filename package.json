@@ -1,6 +1,6 @@
 {
   "name": "luoyehooks",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -12,6 +12,9 @@
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
+  "files": [
+    "es"
+  ],
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
@@ -25,7 +28,7 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "dependencies": {
+  "peerDependencies": {
     "antd": "^4.19.1",
     "react": "^16.12.0 || ^17.0.0"
   },
